@@ -1,18 +1,20 @@
-listWords = [
-    {
-        french: "bonjour",
-        english: "hello"
-    },
-    {
-        french: "bienvenue",
-        english: "welcome"
-    },
-    {
-        french: "soleil",
-        english: "sun"
-    }
-];
-
+function getWords() { 
+    var listWords  = [
+        {
+            french: "bonjour",
+            english: "hello"
+        },
+        {
+            french: "bienvenue",
+            english: "welcome"
+        },
+        {
+            french: "soleil",
+            english: "sun"
+        }
+    ];
+    return listWords;
+}
 /*
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {

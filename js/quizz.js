@@ -3,6 +3,7 @@ var englishElt = document.getElementById("english");
 var frenchElt = document.getElementById("french");
 var messageElt = document.getElementById("message");
 var buttonElt = document.getElementById("ok");
+var listWords = getWords();
 
 function nextWord(indice) {
     englishElt.textContent = listWords[indice].english;

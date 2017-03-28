@@ -1,3 +1,5 @@
+var listWords = getWords();
+
 var Word = {
     init: function (french, english) {
         this.french = french;
