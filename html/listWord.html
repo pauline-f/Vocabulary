@@ -11,29 +11,25 @@
 
 <body>
     <header class="page-header">
-        <h1>Vocabulary - Quizz</h1>
+        <h1>Vocabulary - List words</h1>
     </header>
 
-    <div>
-
-    	<div>
-	    	<img src="../images/england.png" alt="england flag">
-	    	<label id="english"></label>
-	    </div>
-
-        <div>
-	    	<img src="../images/france.png" alt="france flag">
-	    	<input type="text" id="french"></input>
-	    </div>
-
-	    <button type="button" class="btn btn-primary" id="ok">Ok</button>
-
-        <p id="message"></p>
-
-    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th></th>
+                <th>English</th>
+                <th>French</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="bodyTable">
+            
+        </tbody>
+    </table>
 
     <script src="../js/vocabulary.js"></script>
-    <script src="../js/quizz.js"></script>
+    <script src="../js/listWord.js"></script>
     
 </body>
 
